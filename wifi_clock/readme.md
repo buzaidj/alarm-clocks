@@ -1,6 +1,9 @@
 This is an alarm clock with in-bed detection that is WiFi configured. The alarm continues to ring as long as the occupant stays in bed. It uses on a force sensing resistor (model SF15 600) that sits under my mattress.
 
+You can configure the clock by going to http://10.0.0.174 and adding the alarms you need.
+
 ```
+
 curl -F "upload=@index.html" http://10.0.0.174/upload
 
 curl -X GET http://10.0.0.174/getAlarms | jq
@@ -24,7 +27,6 @@ curl "http://10.0.0.174/getLocal"
 curl -X POST http://10.0.0.174/setLoudness -H "Content-Type: application/json" -d '{"amplitude": 0.2}'
 
 curl http://10.0.0.174/testAlarm
-
 
 ```
 
