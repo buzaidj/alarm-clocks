@@ -1,4 +1,4 @@
-This is an alarm clock with in-bed detection that is WiFi configured. The alarm continues to ring as long as the occupant stays in bed. It uses on a force sensing resistor (model SF15 600) that sits under my mattress.
+This is an alarm clock with in-bed detection that is WiFi configured. The alarm continues to ring as long as the occupant stays in bed. It uses on a force sensing resistor (model SF15 600) that sits under my mattress. The alarm will continue ringing until you get out of bed.
 
 You can configure the clock by going to http://10.0.0.174 and adding the alarms you need.
 
